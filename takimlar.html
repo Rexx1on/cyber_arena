@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kayıtlı Oyuncular | CyberArena</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body class="page-shell">
+    <header class="site-header secondary-bar">
+        <a class="brand" href="./"><span class="brand-mark">CA</span><span>CYBER<span class="brand-accent">ARENA</span></span></a>
+        <nav class="page-nav" aria-label="Ana menü">
+            <a href="./">Ana Sayfa</a>
+            <a href="kayıt.html">Turnuvaya Katıl</a>
+            <a href="takimlar.html" class="aktif">Kayıtlı Oyuncular</a>
+        </nav>
+        <a class="header-cta" href="kayıt.html">Kayıt ol <span aria-hidden="true">↗</span></a>
+    </header>
+    <main class="tablo-kapsayici">
+        <section class="table-panel">
+            <h2>Turnuva oyuncuları</h2>
+            <p>Toplam başvuru sayısı: <strong id="oyuncuSayisi" style="color:#c8ff37">0</strong></p>
+            <table id="oyuncuTablosu">
+                <thead><tr><th>#</th><th>Nickname</th><th>Ad soyad</th><th>Yaş</th><th>Oyun</th><th>Tür</th><th>E-posta</th></tr></thead>
+                <tbody id="tabloGovdesi"></tbody>
+            </table>
+            <button onclick="verileriTemizle()" class="sil-buton">Tüm kayıtları sil</button>
+        </section>
+    </main>
+    <script src="./app.js?v=3"></script>
+</body>
+</html>

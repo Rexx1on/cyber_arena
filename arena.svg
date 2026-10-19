@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title description">
+  <title id="title">Cyber Arena</title>
+  <desc id="description">Neon cyan ve pembe ışıklarla aydınlanan bir e-spor turnuva arenası.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080b16"/>
+      <stop offset="0.55" stop-color="#181127"/>
+      <stop offset="1" stop-color="#080b16"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#23e9d1" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#23e9d1" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#23e9d1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pinkBeam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff1766" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ff1766" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#ff1766" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M54 0H0V54" fill="none" stroke="#5e718c" stroke-opacity="0.18" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <path fill="url(#background)" d="M0 0h1600v900H0z"/>
+  <path fill="url(#grid)" d="M0 0h1600v900H0z"/>
+  <path fill="url(#beam)" opacity="0.55" d="m0 152 1600 250v24L0 176z"/>
+  <path fill="url(#pinkBeam)" opacity="0.6" d="m0 724 1600-250v24L0 748z"/>
+  <g fill="none" stroke="#23e9d1" stroke-opacity="0.48">
+    <path stroke-width="3" d="M220 694h1160l-98-186H318z"/>
+    <path stroke-width="2" d="M370 672h860l-90-132H460z"/>
+    <path stroke-width="2" d="M800 200v276M650 250l150 226m150-226L800 476"/>
+    <circle cx="800" cy="405" r="208" stroke-width="3"/>
+    <circle cx="800" cy="405" r="174" stroke-dasharray="6 14" stroke-width="2"/>
+  </g>
+  <g fill="#23e9d1">
+    <path d="m292 300 45-78 45 78z" opacity="0.7"/>
+    <path d="m1218 300 45-78 45 78z" opacity="0.7"/>
+    <circle cx="800" cy="405" r="12"/>
+  </g>
+  <g fill="#ff1766">
+    <path d="m505 690 34-58 34 58z" opacity="0.8"/>
+    <path d="m1027 690 34-58 34 58z" opacity="0.8"/>
+  </g>
+  <text x="800" y="408" fill="#f5f3f7" font-family="Arial, sans-serif" font-size="96" font-weight="900" letter-spacing="8" text-anchor="middle">CYBER</text>
+  <text x="800" y="510" fill="#23e9d1" font-family="Arial, sans-serif" font-size="76" font-weight="900" letter-spacing="18" text-anchor="middle">ARENA</text>
+  <text x="800" y="790" fill="#b8bac5" font-family="Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="9" text-anchor="middle">OYNA · MÜCADELE ET · EFSANE OL</text>
+</svg>
